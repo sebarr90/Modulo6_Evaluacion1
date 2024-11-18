@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+#app {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado con la imagen y los detalles */
+.personalDetails {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-direction: row-reverse; /* Imagen a la derecha, datos a la izquierda */
+}
+
+/* Imagen del perfil */
+.personalDetails img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+/* Detalles personales */
+.left-column {
+    flex-grow: 1;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.details p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+.details i {
+    margin-right: 8px;
+    color: #666;
+}
+
+/* Educación y experiencia */
+.education, .workExperience, .skills {
+    margin-top: 20px;
+}
+
+.education h2, .workExperience h2, .skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.education ul, .workExperience ul, .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li, .workExperience li, .skills li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.education p, .workExperience p {
+    margin-left: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
